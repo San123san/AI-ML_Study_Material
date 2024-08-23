@@ -1,0 +1,20 @@
+# Training Settings
+# Learning Rate (learning_rate = 5e-4):
+What It Is: Controls how quickly the model learns. Think of it as the size of each step the model takes during training.
+When to Change: Adjust if the model is learning too slowly or too quickly.
+
+# Minibatch Size (minibatch_size = 100):
+What It Is: The number of data points used at one time for training. Helps manage how much data is processed in each step.
+When to Change: Adjust depending on your computer’s memory and how big your dataset is.
+
+# Discount Factor (discount_factor = 0.99):
+What It Is: Decides how much the model cares about future rewards versus immediate rewards.
+When to Change: Adjust if the model should focus more on long-term results or immediate outcomes.
+
+# Replay Buffer Size (replay_buffer_size = int(1e5)):
+What It Is: The amount of past experiences the model can remember and learn from.
+When to Change: Increase for more varied learning experiences; adjust based on memory limits.
+
+# Interpolation Parameter (interpolation_parameter = 1e-3):
+What It Is: Controls how much new information updates the model compared to old information.
+When to Change: Adjust if you want to make updates smoother or more abrupt.
